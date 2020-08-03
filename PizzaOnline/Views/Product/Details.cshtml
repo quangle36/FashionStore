@@ -145,7 +145,6 @@ span {
         </div>
         <div class="product-price-btn">
             <p><span>@Html.DisplayFor(model => model.Price)</span> VND</p>
-            <button type="button" onclick="location.href='@Url.Action("OrderProduct","ShoppingCart",new {id = @Model.ProductID})'">Add to cart</button>
         </div>
     </div>
 </div>
